@@ -1,0 +1,35 @@
+<div class="container py-4 d-flex justify-content-center">
+    <div class="w-100" style="max-width: 100%">
+        <h2 class="mb-4 text-center">
+            Lista de Doctores
+        </h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle text-center">
+                <thead class="table-primary">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Especialidad</th>
+                    <th scope="col">Años de experiencia</th>
+                    <th scope="col">Ciudad</th>
+                    <th scope="col">Teléfono</th>
+                    <th scope="col">Foto</th>
+                </tr>
+                </thead>
+                <tbody>
+                    @for ( doctor of misDoctores; track doctor.id){
+                        <tr>
+                            <td>{{ doctor.id }}</td>
+                            <td>{{ doctor.nombre }}</td>
+                            <td>{{ doctor.especialidad }}</td>
+                            <td>{{ doctor.anios_experiencia }} año{{ doctor.anios_experiencia > 1 ? 's' : ''  }}</td>
+                            <td>{{ doctor.ciudad }}</td>
+                            <td>{{ doctor.telefono }}</td>
+                            <td><img [src]="doctor.foto" class="rounded-circle shadow-sm" width="60" height="60" alt="Foto de {{ doctor.nombre }}"></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

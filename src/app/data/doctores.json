@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "nombre": "Dra. Mariana Torres",
+    "especialidad": "Cardiología",
+    "anios_experiencia": 12,
+    "ciudad": "Ciudad de México",
+    "telefono": "55 1234 5678",
+    "foto": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 1002,
+    "nombre": "Dr. Luis Ramírez",
+    "especialidad": "Neurología",
+    "anios_experiencia": 15,
+    "ciudad": "Guadalajara",
+    "telefono": "33 9876 5432",
+    "foto": "https://randomuser.me/api/portraits/men/55.jpg"
+  },
+  {
+    "id": 1003,
+    "nombre": "Dra. Isabel Jiménez",
+    "especialidad": "Pediatría",
+    "anios_experiencia": 8,
+    "ciudad": "Monterrey",
+    "telefono": "81 2345 6789",
+    "foto": "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    "id": 1004,
+    "nombre": "Dr. Fernando Rivas",
+    "especialidad": "Gastroenterología",
+    "anios_experiencia": 10,
+    "ciudad": "Querétaro",
+    "telefono": "442 123 4567",
+    "foto": "https://randomuser.me/api/portraits/men/64.jpg"
+  },
+  {
+    "id": 1005,
+    "nombre": "Dra. Laura Mendoza",
+    "especialidad": "Ginecología",
+    "anios_experiencia": 14,
+    "ciudad": "Puebla",
+    "telefono": "222 456 7890",
+    "foto": "https://randomuser.me/api/portraits/women/32.jpg"
+  },
+  {
+    "id": 1006,
+    "nombre": "Dr. Andrés López",
+    "especialidad": "Dermatología",
+    "anios_experiencia": 11,
+    "ciudad": "León",
+    "telefono": "477 321 6543",
+    "foto": "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    "id": 1007,
+    "nombre": "Dra. Paula Ortega",
+    "especialidad": "Oftalmología",
+    "anios_experiencia": 9,
+    "ciudad": "Toluca",
+    "telefono": "722 987 1234",
+    "foto": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 1008,
+    "nombre": "Dr. Ricardo Salazar",
+    "especialidad": "Ortopedia",
+    "anios_experiencia": 13,
+    "ciudad": "San Luis Potosí",
+    "telefono": "444 654 3210",
+    "foto": "https://randomuser.me/api/portraits/men/28.jpg"
+  },
+  {
+    "id": 1009,
+    "nombre": "Dra. Andrea Núñez",
+    "especialidad": "Psiquiatría",
+    "anios_experiencia": 16,
+    "ciudad": "Mérida",
+    "telefono": "999 112 3344",
+    "foto": "https://randomuser.me/api/portraits/women/50.jpg"
+  },
+  {
+    "id": 1010,
+    "nombre": "Dr. Miguel Herrera",
+    "especialidad": "Urología",
+    "anios_experiencia": 7,
+    "ciudad": "Tijuana",
+    "telefono": "664 778 8899",
+    "foto": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": 1011,
+    "nombre": "Dra. Renata Villalobos",
+    "especialidad": "Endocrinología",
+    "anios_experiencia": 10,
+    "ciudad": "Chihuahua",
+    "telefono": "614 543 2109",
+    "foto": "https://randomuser.me/api/portraits/women/23.jpg"
+  },
+  {
+    "id": 1012,
+    "nombre": "Dr. Esteban Castillo",
+    "especialidad": "Medicina Interna",
+    "anios_experiencia": 18,
+    "ciudad": "Aguascalientes",
+    "telefono": "449 765 4321",
+    "foto": "https://randomuser.me/api/portraits/men/39.jpg"
+  }
+]

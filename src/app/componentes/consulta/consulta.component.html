@@ -1,0 +1,19 @@
+<div class="consulta d-flex justify-content-center">
+    @if (doctor !== null){
+        <div class="cars p-3 mt-4 d-flex flex-row">
+            <img [src]="doctor.foto" alt="Foto del doctor" class="img-thumbnail me-3">
+            <div>
+                <h5 class="card-title mb-2">{{doctor.nombre}}</h5>
+                <p class="mb-1"><strong>ID: </strong>{{doctor.id}}</p>
+                <p class="mb-1"><strong>Especialidad: </strong>{{doctor.especialidad}}</p>
+                <p class="mb-1"><strong>Anios de experiencia: </strong>{{doctor.anios_experiencia}}</p>
+                <p class="mb-1"><strong>Telefono: </strong>{{doctor.telefono}}</p>
+                <p class="mb-0"><strong>Ciudad: </strong>{{doctor.ciudad}}</p>
+            </div>
+        </div>
+    }@else {
+        <div class="alert alert-warning mt-4">
+            No se encontro ningun doctor con el ID {{id}}
+        </div>
+    }
+</div>
