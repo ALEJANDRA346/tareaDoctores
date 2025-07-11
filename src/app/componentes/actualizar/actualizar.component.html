@@ -1,0 +1,30 @@
+@if (doctores.length>0){
+<div class="table-responsive mt-4 w-50 mx-auto bg-light border p-3">
+    <table class="table table-bordered table-hover align-middle text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>Foto</th>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Accion</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (doc of doctores;track doc.id) {
+  <tr>
+    <td>
+        <img [src]='doc.foto' alt="foto no encontrada" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+    </td>
+    <td>{{doc.id}}</td>
+    <td>{{doc.nombre}}</td>
+    <td>
+      <button (click)="irAEditar(doc.id)" class="btn btn-warning btn-sm">Actualizar</button>
+    </td>
+  </tr>
+}
+        </tbody>
+    </table>
+</div>
+}@else{
+    <div class="alert alert-info mt-4">No existen doctores</div>
+}
