@@ -1,0 +1,36 @@
+@if( mensajeExito !== ""){
+     <div class="overlay"></div>
+    <div class="alert alert-success text-center alerta-flotante">
+        {{mensajeExito}}
+    </div>
+}<br><br>
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <h1>Contacto</h1>
+    <div>
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" formControlName="name">
+        @if (userForm.get('name')?.invalid && userForm.get ('name')?.touched) {
+            <div>El nombre es obligatorio</div>
+        }
+    </div>
+    <div>
+        <label for="email">Correo electronico:</label>
+        <input id="email" formControlName="email">
+        @if (userForm.get('email')?.invalid && userForm.get ('email')?.touched) {
+            <div>Proporciona un correo electronico valido</div>
+        }
+    </div>
+    <div>
+        <label for="message">Mensaje:</label>
+        <input id="message" type="text" formControlName="message">
+        @if (userForm.get('message')?.invalid && userForm.get ('message')?.touched) {
+            <div>El mensaje es obligatorio</div>
+        }
+    </div>
+
+    <button type="submit" [disabled]="userForm.invalid">Enviar</button>
+    <br><br>
+
+    
+</form>
+
